@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<link rel="icon" href="./assets/img/helpdesk-window-icon.webp" type="image/webp" />
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <header class="coluna">
+        <div class="barra-azul">
+            <h1 class="white">Central de Serviços</h1>
+        </div>
+        <div class="container flex">
+            <select name="principal" id="selecionar-principal">
+                <option value="principal">Principal</option>
+            </select>
+            <button class="centro flex">
+                <img src="./assets/base.png" alt="Database icon" />
+                Base de Conhecimento
+            </button>
+            <button class="centro flex">
+                <img src="./assets/novo.png" alt="Call icon" />
+                Novo chamado
+            </button>
+            <button class="centro flex">
+                <img src="./assets/lista.png" alt="Call list icon" />
+                Lista de Chamados
+            </button>
+        </div>
+        <div class="centro flex caixa-profissional">
+            <img src="./assets/icon.png" alt="Profile icon" />
+        </div>
+    </header>
+    <main class="coluna flex">
+        <div class="ligacao flex">
+            <h3>Chamado: <strong>40028922</strong></h3>
+        </div>
+        <div class="flex coluna produto">
+            <div class="barra-cinza flex">
+                <img src="./assets/tabela.png" alt="icone mesa" />
+                <h3>Jogo/Manuntenção</h3>
+            </div>
+            <div class="flex centro container">
+                <div class="flex centro caixa-entrada">
+                    <div class="Primeira">
+                        <label for="opcoes">Escolha o jogo:</label>
+                        <select id="opcoes" name="opcao">
+                            <option value="opcao1">PVZ</option>
+                            <option value="opcao2">F1</option>
+                        </select><br><br>
+                    </div>
+
+                    <label for="opcao2">Escolha o titulo de manuntenção:</label>
+                    <select id="opcao2" name="opcao2">
+                        <option value="opcao2_2">Adaptação para dispositivos móveis</option>
+                        <option value="opcao2_3">Novas mecânicas de jogo</option>
+                        <option value="opcao2_4">Modo Multijogador</option>
+                        <option value="opcao2_5">Mapas e Terreno</option>
+                        <option value="opcao2_6">Otimização de desempenho </option>
+                        <option value="opcao2_7">Evolução Gráfica</option>
+                        <option value="opcao2_8">Correção de bugs</option>
+                        <option value="opcao2_9">Resolução de problemas de equilíbrio de jogabilidade</option>
+                        <option value="opcao2_10">Manutenção de servidores</option>
+                        <option value="opcao2_11">Novas Habilidades para a Planta Protagonista</option>
+                        <option value="opcao2_12">Variedade de Zumbis e Desafios</option>
+                        <option value="opcao2_13"> Modo Multijogador Competitivo ou Cooperativo</option>
+                        <option value="opcao2_14">Otimização de desempenho</option>
+                        <option value="opcao2_15">Monitoramento</option>
+                        <option value="opcao2_16">atualização de servidores</option>
+                    </select><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="caminho coluna flex">
+            <div class="barra-cinza flex">
+                <img src="./assets/tabela.png" alt="icone mesa" />
+                <h3>Tipo da manuntenção/Tempo de Resolução/Responsável/Status</h3>
+            </div>
+            <div class="coluna flex container">
+                <div class="caixa-entrada flex">
+                </div>
+                <label for="opcao3">Escolha o tipo de manuntenção:</label>
+                <select id="opcao3" name="opcao3">
+                    <option value="opcao1_1">Adaptativa:</option>
+                    <option value="opcao1_2">Corretiva</option>
+                    <option value="opcao1_3">Evolutiva/Perfectiva</option>
+                    <option value="opcao1_4">Preventiva</option>
+                </select><br><br>
+                <label for="opcao4">Escolha o tempo de manuntenção(Horas):</label>
+                <select id="opcao4" name="opcao4">
+                    <option value="opcao3_2">100</option>
+                    <option value="opcao3_3">200</option>
+                    <option value="opcao3_4">300</option>
+                    <option value="opcao3_5">400</option>
+                    <option value="opcao3_6">500</option>
+                    <option value="opcao3_7">150</option>
+                    <option value="opcao3_8">72</option>
+                    <option value="opcao3_9">Sem tempo previsto</option>
+                </select><br><br>
+                <label for="opcao5">Escolha o responsável</label>
+                <select id="opcao5" name="opcao5">
+                    <option value="opcao5_1">Pedro</option>
+                    <option value="opcao5_2">Valentino</option>
+                    <option value="opcao5_3">Kauê</option>
+                    <option value="opcao5_4">Arthur</option>
+                    <option value="opcao5_5">Todos</option>
+                </select><br><br>
+                <label for="opcao6">Escolha o jogo:</label>
+                <select id="opcao6" name="opcao6">
+                    <option value="opcao6_1">A fazer</option>
+                    <option value="opcao6_2">Concluido</option>
+                    <option value="opcao6_2">Atrasado</option>
+                    <option value="opcao6_2">Em espera</option>
+                    <option value="opcao6_2">Cancelado</option>
+                </select><br><br>
+            </div>
+        </div>
+        </select>
+        </div>
+        </div>
+        </div>
+        <div class="coluna flex mesa">
+            <div class="barra-cinza flex">
+                <img src="./assets/tabela.png" alt="icone mesa" />
+                <h3>Título/Descrição</h3>
+            </div>
+            <div class="coluna flex container">
+                <div class="caixa-entrada flex">
+                    <label for="titulo">Título:</label>
+                    <input type="texto" id="titulo" required />
+                    <span>*</span>
+                </div>
+                <div class="caixa-entrada flex">
+                    <label for="titulo">Descrição:</label>
+                    <div class="coluna flex">
+                        <textarea name="Descrição" id="Descrição" required></textarea>
+                        <samp>
+                            Para facilitar o trabalho posterior, cadastre uma Chamada para cada solicitação </samp>
+                    </div>
+                    <span>*</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex">
+        <button class="centro flex">
+            <img src="./assets/confirmar.png" alt="icone confirmar" />
+            Confirmar
+        </button>
+        <button class="flex center">
+            <img src="./assets/cancelar.png" alt="icone cancelar" />
+            Cancelar
+        </button>
+    </footer>
+</body>
+
+</html>
