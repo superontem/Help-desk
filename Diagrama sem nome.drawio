@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T11:38:49.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.3" etag="C7Nd5T7nxhMZwH2oqADr" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-26T11:42:11.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1pMSxwy9eyp50DgloQP4" version="24.6.3" type="github">
   <diagram name="Página-1" id="99WS2f7V4BHbIQC2Qiq5">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JDXZq0Dr5r2-62NMHp8O-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="450" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JDXZq0Dr5r2-62NMHp8O-3" value="JR" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDXZq0Dr5r2-62NMHp8O-4" value="Senior" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDXZq0Dr5r2-62NMHp8O-5" value="Ler arquivo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JDXZq0Dr5r2-62NMHp8O-6" value="Use case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
